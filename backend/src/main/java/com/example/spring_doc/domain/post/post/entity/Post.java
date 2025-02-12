@@ -1,9 +1,9 @@
-package com.example.jwt.domain.post.post.entity;
+package com.example.spring_doc.domain.post.post.entity;
 
-import com.example.jwt.domain.member.member.entity.Member;
-import com.example.jwt.domain.post.comment.entity.Comment;
-import com.example.jwt.global.entity.BaseTime;
-import com.example.jwt.global.exception.ServiceException;
+import com.example.spring_doc.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.post.comment.entity.Comment;
+import com.example.spring_doc.global.entity.BaseTime;
+import com.example.spring_doc.global.exception.ServiceException;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.SuperBuilder;

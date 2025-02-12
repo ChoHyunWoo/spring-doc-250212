@@ -1,12 +1,12 @@
-package com.example.jwt.domain.member.member.controller;
+package com.example.spring_doc.domain.member.member.controller;
 
-import com.example.jwt.domain.member.member.dto.MemberDto;
-import com.example.jwt.domain.member.member.entity.Member;
-import com.example.jwt.domain.member.member.service.MemberService;
-import com.example.jwt.domain.post.post.service.PostService;
-import com.example.jwt.global.Rq;
-import com.example.jwt.global.dto.RsData;
-import com.example.jwt.global.exception.ServiceException;
+import com.example.spring_doc.domain.member.member.dto.MemberDto;
+import com.example.spring_doc.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.member.member.service.MemberService;
+import com.example.spring_doc.domain.post.post.service.PostService;
+import com.example.spring_doc.global.Rq;
+import com.example.spring_doc.global.dto.RsData;
+import com.example.spring_doc.global.exception.ServiceException;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;

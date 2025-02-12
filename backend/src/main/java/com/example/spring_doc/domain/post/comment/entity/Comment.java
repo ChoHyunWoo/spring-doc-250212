@@ -1,9 +1,9 @@
-package com.example.jwt.domain.post.comment.entity;
+package com.example.spring_doc.domain.post.comment.entity;
 
-import com.example.jwt.domain.member.member.entity.Member;
-import com.example.jwt.domain.post.post.entity.Post;
-import com.example.jwt.global.entity.BaseTime;
-import com.example.jwt.global.exception.ServiceException;
+import com.example.spring_doc.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.post.post.entity.Post;
+import com.example.spring_doc.global.entity.BaseTime;
+import com.example.spring_doc.global.exception.ServiceException;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.ManyToOne;

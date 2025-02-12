@@ -1,4 +1,4 @@
-package com.example.jwt.global.entity;
+package com.example.spring_doc.global.entity;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

@@ -1,4 +1,4 @@
-package com.example.jwt.global.dto;
+package com.example.spring_doc.global.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;

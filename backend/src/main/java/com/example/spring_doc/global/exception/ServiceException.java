@@ -1,6 +1,6 @@
-package com.example.jwt.global.exception;
+package com.example.spring_doc.global.exception;
 
-import com.example.jwt.global.dto.RsData;
+import com.example.spring_doc.global.dto.RsData;
 
 public class ServiceException extends RuntimeException {
 

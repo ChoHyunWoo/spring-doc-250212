@@ -1,7 +1,7 @@
-package com.example.jwt.domain.post.post.repository;
+package com.example.spring_doc.domain.post.post.repository;
 
-import com.example.jwt.domain.member.member.entity.Member;
-import com.example.jwt.domain.post.post.entity.Post;
+import com.example.spring_doc.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.post.post.entity.Post;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.JpaRepository;

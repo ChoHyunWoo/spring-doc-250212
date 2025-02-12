@@ -1,7 +1,7 @@
-package com.example.jwt.global.exception;
+package com.example.spring_doc.global.exception;
 
-import com.example.jwt.global.app.AppConfig;
-import com.example.jwt.global.dto.RsData;
+import com.example.spring_doc.global.app.AppConfig;
+import com.example.spring_doc.global.dto.RsData;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

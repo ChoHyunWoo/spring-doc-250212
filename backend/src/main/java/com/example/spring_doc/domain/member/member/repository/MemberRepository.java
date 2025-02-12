@@ -1,6 +1,6 @@
-package com.example.jwt.domain.member.member.repository;
+package com.example.spring_doc.domain.member.member.repository;
 
-import com.example.jwt.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.member.member.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

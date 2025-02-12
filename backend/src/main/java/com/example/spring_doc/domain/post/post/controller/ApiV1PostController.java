@@ -1,14 +1,14 @@
-package com.example.jwt.domain.post.post.controller;
+package com.example.spring_doc.domain.post.post.controller;
 
-import com.example.jwt.domain.member.member.entity.Member;
-import com.example.jwt.domain.member.member.service.MemberService;
-import com.example.jwt.domain.post.post.dto.PageDto;
-import com.example.jwt.domain.post.post.dto.PostWithContentDto;
-import com.example.jwt.domain.post.post.entity.Post;
-import com.example.jwt.domain.post.post.service.PostService;
-import com.example.jwt.global.Rq;
-import com.example.jwt.global.dto.RsData;
-import com.example.jwt.global.exception.ServiceException;
+import com.example.spring_doc.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.member.member.service.MemberService;
+import com.example.spring_doc.domain.post.post.dto.PageDto;
+import com.example.spring_doc.domain.post.post.dto.PostWithContentDto;
+import com.example.spring_doc.domain.post.post.entity.Post;
+import com.example.spring_doc.domain.post.post.service.PostService;
+import com.example.spring_doc.global.Rq;
+import com.example.spring_doc.global.dto.RsData;
+import com.example.spring_doc.global.exception.ServiceException;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import lombok.RequiredArgsConstructor;

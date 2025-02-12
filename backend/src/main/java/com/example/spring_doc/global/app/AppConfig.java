@@ -1,4 +1,4 @@
-package com.example.jwt.global.app;
+package com.example.spring_doc.global.app;
 
 public class AppConfig {
 

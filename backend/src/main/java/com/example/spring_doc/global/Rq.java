@@ -1,9 +1,9 @@
-package com.example.jwt.global;
+package com.example.spring_doc.global;
 
-import com.example.jwt.domain.member.member.entity.Member;
-import com.example.jwt.domain.member.member.service.MemberService;
-import com.example.jwt.global.exception.ServiceException;
-import com.example.jwt.global.security.SecurityUser;
+import com.example.spring_doc.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.member.member.service.MemberService;
+import com.example.spring_doc.global.exception.ServiceException;
+import com.example.spring_doc.global.security.SecurityUser;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

@@ -1,4 +1,4 @@
-package com.example.jwt.global.entity;
+package com.example.spring_doc.global.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.EntityListeners;

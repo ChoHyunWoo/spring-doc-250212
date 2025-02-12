@@ -1,9 +1,9 @@
-package com.example.jwt.global;
+package com.example.spring_doc.global;
 
-import com.example.jwt.domain.member.member.entity.Member;
-import com.example.jwt.domain.member.member.service.MemberService;
-import com.example.jwt.domain.post.post.entity.Post;
-import com.example.jwt.domain.post.post.service.PostService;
+import com.example.spring_doc.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.member.member.service.MemberService;
+import com.example.spring_doc.domain.post.post.entity.Post;
+import com.example.spring_doc.domain.post.post.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;

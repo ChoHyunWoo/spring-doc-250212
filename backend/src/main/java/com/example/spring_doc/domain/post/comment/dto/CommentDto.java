@@ -1,6 +1,6 @@
-package com.example.jwt.domain.post.comment.dto;
+package com.example.spring_doc.domain.post.comment.dto;
 
-import com.example.jwt.domain.post.comment.entity.Comment;
+import com.example.spring_doc.domain.post.comment.entity.Comment;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

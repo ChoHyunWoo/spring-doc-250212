@@ -1,7 +1,7 @@
-package com.example.jwt.global.security;
+package com.example.spring_doc.global.security;
 
-import com.example.jwt.global.dto.RsData;
-import com.example.jwt.standard.util.Ut;
+import com.example.spring_doc.global.dto.RsData;
+import com.example.spring_doc.standard.util.Ut;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,8 +32,10 @@ public class SecurityConfig {
                                 .permitAll()
                                 .requestMatchers("/api/v1/posts/statistics")
                                 .hasRole("ADMIN")
-                                .anyRequest()
+                                .requestMatchers("/api/*/**")
                                 .authenticated()
+                                .anyRequest()
+                                .permitAll()
                 )
                 .headers((headers) -> headers
                         .addHeaderWriter(new XFrameOptionsHeaderWriter(

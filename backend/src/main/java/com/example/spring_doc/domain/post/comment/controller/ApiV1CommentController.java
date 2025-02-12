@@ -1,13 +1,13 @@
-package com.example.jwt.domain.post.comment.controller;
+package com.example.spring_doc.domain.post.comment.controller;
 
-import com.example.jwt.domain.member.member.entity.Member;
-import com.example.jwt.domain.post.comment.dto.CommentDto;
-import com.example.jwt.domain.post.comment.entity.Comment;
-import com.example.jwt.domain.post.post.entity.Post;
-import com.example.jwt.domain.post.post.service.PostService;
-import com.example.jwt.global.Rq;
-import com.example.jwt.global.dto.RsData;
-import com.example.jwt.global.exception.ServiceException;
+import com.example.spring_doc.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.post.comment.dto.CommentDto;
+import com.example.spring_doc.domain.post.comment.entity.Comment;
+import com.example.spring_doc.domain.post.post.entity.Post;
+import com.example.spring_doc.domain.post.post.service.PostService;
+import com.example.spring_doc.global.Rq;
+import com.example.spring_doc.global.dto.RsData;
+import com.example.spring_doc.global.exception.ServiceException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;

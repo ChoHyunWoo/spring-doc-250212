@@ -1,7 +1,7 @@
-package com.example.jwt.domain.member.member.service;
+package com.example.spring_doc.domain.member.member.service;
 
-import com.example.jwt.domain.member.member.entity.Member;
-import com.example.jwt.domain.member.member.repository.MemberRepository;
+import com.example.spring_doc.domain.member.member.entity.Member;
+import com.example.spring_doc.domain.member.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
