@@ -36,6 +36,8 @@ public class SecurityConfig {
                                 .authenticated()
                                 .anyRequest()
                                 .permitAll()
+
+
                 )
                 .headers((headers) -> headers
                         .addHeaderWriter(new XFrameOptionsHeaderWriter(

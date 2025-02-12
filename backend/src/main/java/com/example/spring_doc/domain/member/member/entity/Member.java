@@ -38,12 +38,16 @@ public class Member extends BaseTime {
     public boolean isAdmin() {
         return username.equals("admin");
     }
+
     public Collection<? extends GrantedAuthority> getAuthorities() {
+
         return getMemberAuthoritesAsString()
                 .stream()
                 .map(SimpleGrantedAuthority::new)
                 .toList();
+
     }
+
     public List<String> getMemberAuthoritesAsString() {
 
         List<String> authorities = new ArrayList<>();
@@ -51,6 +55,8 @@ public class Member extends BaseTime {
         if(isAdmin()) {
             authorities.add("ROLE_ADMIN");
         }
+
         return authorities;
     }
+
 }
